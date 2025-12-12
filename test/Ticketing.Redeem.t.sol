@@ -2,7 +2,7 @@
 pragma solidity ^0.8.24;
 
 import "./BaseTicketing.t.sol";
-import { TicketingErrors } from "../src/core/Errors.sol";
+import {TicketingErrors} from "../src/core/Errors.sol";
 
 contract TicketingRedeemTest is BaseTicketingTest {
     function test_createRedeemCodes_andRedeem_once_only() public {
